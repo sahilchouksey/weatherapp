@@ -1,0 +1,24 @@
+{
+  "homepage": "http://sahilchouksey.github.io/weatherapp",
+  "name": "react-weather-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "lodash.debounce": "^4.0.8",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
